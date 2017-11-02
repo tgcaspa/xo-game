@@ -1,0 +1,63 @@
+﻿body {
+    margin:0;
+    padding:0;
+    outline:none;
+    background-color:whitesmoke;
+    direction:rtl;
+    font-family: 'Segoe UI';
+    color:black;
+}
+#whichPlayer {
+    font-weight:bold;
+    margin-top:70px;
+    text-align:center;
+    color:black;
+}
+#main {
+    width:360px;
+    height:360px;
+    margin:15px auto;
+    background-color:white;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    box-shadow:2px 2px 7px #c1c1c1;
+}
+#desk{
+    position:relative;
+    top:9px;
+    margin:auto;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    border:7px solid #413b72;
+    border-spacing:0;
+}
+td {
+    width:105px;
+    height:105px;
+    border: 1px solid #413b72;
+}
+td img {
+    position:relative;
+    top:2px;
+    right:24px;
+}
+#btnReset {
+    text-align:center;
+    padding-top:9px;
+    width:130px;
+    height:33px;
+    margin:15px auto;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow:2px 2px 7px #c1c1c1;
+}
+#btnReset:hover, td:hover {
+    cursor:pointer;
+    background-color:#d4cae9;
+}
+footer p {
+    text-align:center;
+    font-size:11px;
+    margin:65px;
+    
+}
